@@ -19,7 +19,6 @@ export interface CartItem extends Product {
 
 export interface CheckoutFormData {
   name: string;
-  phone: string;
   address: string;
   neighborhood: string;
   paymentMethod: 'Pix' | 'Cartão' | 'Dinheiro';
